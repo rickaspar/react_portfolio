@@ -1,0 +1,26 @@
+.carousel-container {
+    max-width: 50%;
+    display: flex;
+    background-color: #f1f1f1;
+    flex-wrap: nowrap;
+    overflow: hidden;
+}
+
+.carousel-item {
+    height: "60px";
+    min-width: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
+
+.image-item {
+    max-width: 35%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 2s;
+}
